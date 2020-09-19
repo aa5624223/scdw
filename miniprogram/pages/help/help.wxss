@@ -1,0 +1,22 @@
+/* pages/help/help.wxss */
+.weui-cells__title{
+  font-size: 70%;
+}
+.weui-cells::before{
+border-top: 0rpx solid rgba(0,0,0,.1)!important
+}
+.weui-cells::after{
+  border-top: 0rpx solid rgba(0,0,0,.1)!important
+}
+.weui-cell::before{
+  border-top: 0rpx solid rgba(0,0,0,.1)!important
+}
+.weui-cell::after{
+  border-top: 0rpx solid rgba(0,0,0,.1)!important
+}
+.mp-cells::after{
+  border-bottom: 0rpx solid rgba(0,0,0,.1)!important
+}
+.weui-cells:after,.weui-cells:before{
+  height: 0px;
+}

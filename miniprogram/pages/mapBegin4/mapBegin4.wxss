@@ -1,0 +1,13 @@
+/* pages/mapBegin4/mapBegin4.wxss */
+.btn_Area button{
+  border-radius: 50%;
+  font-size: 150%;
+  line-height:190px;
+  margin-top: 100px;
+  width:220px!important;
+  height:220px;
+}
+#LogContent{
+  height:500rpx;
+  overflow-y:scroll;
+}

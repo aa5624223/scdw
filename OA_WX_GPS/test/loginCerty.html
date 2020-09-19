@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>登录验证的测试 </title>
+    <script src="../Scripts/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <script>
+        $(document).ready(function () {
+
+        });
+        function dataSubmit() {
+            //$.ajax({
+            //    type: 'post',
+            //    url: '../Controllers/Login_Certify.ashx',
+            //    data: $("#Myself").serialize(),
+            //    beforeSend: function (XMLHttpRequest) {
+
+            //    },
+            //    complete: function (XMLHttpRequest, textStatus) {
+            //    },
+            //    success: function (data) {
+            //        var json = "";
+            //        alert(data);
+            //    },
+            //    error:function(error){
+            //        alert(error);
+            //    }
+            //});
+            $.ajax({
+                type: 'post',
+                url: 'https://api.changfa.net/OA_WX_GPS/Controllers/getSecret.ashx',
+                data: {
+                    code:'053mV8ll2QLvx54QiBml2qandJ2mV8ls',
+                },
+                header: {
+                    'content-type': 'application/x-www-form-urlencoded' //修改此处即可
+                },
+                beforeSend: function (XMLHttpRequest) {
+
+                },
+                complete: function (XMLHttpRequest, textStatus) {
+                },
+                success: function (data) {
+                    var json = "";
+                    alert(data);
+                },
+                error: function (error) {
+                    alert(error);
+                }
+            });
+        }
+    </script>
+
+    <form id="Myself">
+        <label>aid:</label><input type="text" name="aid" id="aid" value="wxc73b6246871bc36c" /><br />
+        <label>pid 工号:</label><input type="text" name="pid" id="pid" /><br />
+        <label>uName 姓名</label><input type="text" name="uName" id="uName" /><br />
+        <label>openid 微信id</label><input type="text" name="openid" id="openid" /><br />
+        <label>wxName 微信昵称</label><input type="text" name="wxName" id="wxName" />
+    </form>
+    <input type="button" onclick="dataSubmit()" value="提交数据">
+</body>
+</html>

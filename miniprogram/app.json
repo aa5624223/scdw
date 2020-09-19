@@ -1,0 +1,40 @@
+{
+  "pages": [
+    
+    "pages/default/default",
+    "pages/login/login",
+    "pages/help/help",
+    "pages/mapBegin2/mapBegin2",
+    "pages/flowChose/flowChose",
+    "pages/logs/logs",
+    "pages/mapBegin1/mapBegin1",
+    "pages/Msg/Msg",
+    "pages/mapBegin3/mapBegin3",
+    "pages/mapBegin4/mapBegin4"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "私车公出记录",
+    "navigationBarTextStyle": "black"
+  },
+  "permission": {
+    "scope.userLocationBackground": {
+      "desc": "获取您当前的位置，以便于后台记录路径"
+    },
+    "scope.userInfo": {
+      "desc": "获取信息，免登录"
+    },
+    "scope.userLocation": {
+      "desc": "获取您当前的位置，以便于后台记录路径"
+    }
+  },
+  "networkTimeout": {
+    "request": 3000
+  },
+  "requiredBackgroundModes": [
+    "location"
+  ],
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

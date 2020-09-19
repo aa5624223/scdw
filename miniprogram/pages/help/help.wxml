@@ -1,0 +1,37 @@
+<scroll-view scroll-y style="height: 1150rpx;">
+  <view style="font-size:100%;Color:red;text-align:center;">
+    登录和权限设置
+  </view>
+  <mp-cells>
+    <mp-cell wx:for="{{TitleList1}}" wx:key="id" wx:for-index="idx" bindtap="ShowHelp" data-item="{{item}}" style="font-size:80%;"  value="{{item.text}}" >
+    </mp-cell>
+  </mp-cells>
+  <view style="font-size:100%;Color:red;text-align:center;">
+    小程序使用
+  </view>
+  <mp-cells title="行程选择说明">
+    <mp-cell wx:for="{{TitleList2}}" wx:key="id" wx:for-index="idx" bindtap="ShowHelp" data-item="{{item}}" style="font-size:80%;"  value="{{item.text}}" >
+    </mp-cell>
+  </mp-cells>
+  <mp-cells title="按钮说明">
+    <mp-cell wx:for="{{TitleList3}}" wx:key="id" wx:for-index="idx" bindtap="ShowHelp" data-item="{{item}}" style="font-size:80%;width:49%;float:left" value="{{item.text}}" >
+    </mp-cell>
+  </mp-cells>
+  <view style="font-size:100%;Color:red;text-align:center;">
+    常见问题
+  </view>
+  <mp-cells>
+    <mp-cell wx:for="{{TitleList4}}" wx:key="id" wx:for-index="idx" bindtap="open{{idx}}" style="font-size:80%;"  value="{{item.text}}">
+    </mp-cell>
+  </mp-cells>
+  <mp-cells>
+    <mp-cell  style="margin-top:20px;font-size:120%;" value="">
+    </mp-cell>
+  </mp-cells>
+  <button bindtap="btn_back" style="position:fixed;bottom:1%;width:90%;left:5%">返回首页</button>
+</scroll-view>
+<!-- 问题1 -->
+<!--tips="辅助提示内容，可根据实际需要安排"-->
+<mp-halfScreenDialog bindbuttontap="buttontap"show="{{dialogShow0}}" maskClosable="{{false}}" title="出差/公出申请变化" desc="无需填写出厂/回厂的里程数,总里程以微信小程序上传为准"></mp-halfScreenDialog>
+<!-- 问题2 -->
+<mp-halfScreenDialog bindbuttontap="buttontap" show="{{dialogShow1}}" maskClosable="{{false}}" title="部分机型无法在后台定位" desc="已知机型：华为手机 其他机型请及时反馈" tips="手机管家->应用程序管理->微信->自动管理 关闭自动管理"></mp-halfScreenDialog>

@@ -1,0 +1,13 @@
+<!--pages/mapBegin2/mapBegin2.wxml-->
+<view id="LogContent">
+  <view wx:for="{{PontLog}}" data-index="{{index}}" class="FlowIteam" >
+    {{item.msg}}
+  </view>
+</view>
+<view id="result" class="btn_Area">
+  <button wx:if="{{btn_BeginFlg}}" class="weui-btn btn_Begin" bindtap="btn_Begin" style="width:220px;height:220px;" type="primary">开始行程</button>
+  <button wx:if="{{btn_ContinueFlg}}" class="weui-btn btn_Continue" bindtap="btn_Continue" style="width:220px;height:220px;" type="primary">继续行程</button>
+  <button wx:if="{{btn_StopFlg}}" class="weui-btn btn_Stop" bindtap="btn_Stop" style="width:220px;height:220px;background-color:orange" type="primary">暂停行程</button>
+  <button wx:if="{{btn_EndFlg}}" class="weui-btn btn_End" style="width:220px;height:220px;background-color:red;margin-top:50px" bindtap="btn_End" type="primary">结束行程</button>
+</view>
+

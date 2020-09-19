@@ -1,0 +1,51 @@
+/* pages/flowChose/flowChose.wxss */
+.FlowContent{
+  width:95%;
+  margin-left:10px;
+  margin-right:20px;
+  float:left;
+}
+.FlowTitle{
+  font-size:20px;
+  font-weight:600;
+  width: 100%;
+  border-bottom:1px solid gray;
+  margin-top: 10px;
+}
+.FlowIteam{
+  width:100%;
+  float:left;
+  border-bottom:1px solid gray;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+.FlowBody{
+  font-size:120%;
+  margin-top:10px
+}
+.FlowBody_left{
+  float:left;
+  width:100%
+}
+.FlowBody_Right{
+  float:left;
+  width:100%;
+}
+.weui-cells__title{
+  font-size:110%;
+}
+.weui-cells::before{
+border-top: 0rpx solid rgba(0,0,0,.1)!important
+}
+.weui-cells::after{
+  border-top: 0rpx solid rgba(0,0,0,.1)!important
+}
+.weui-cell::before{
+  border-top: 0rpx solid rgba(0,0,0,.1)!important
+}
+.weui-cell::after{
+  border-top: 0rpx solid rgba(0,0,0,.1)!important
+}
+.mp-cells::after{
+  border-bottom: 0rpx solid rgba(0,0,0,.1)!important
+}

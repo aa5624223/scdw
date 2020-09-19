@@ -1,0 +1,19 @@
+<!--pages/mapBegin2/mapBegin4.wxml-->
+<!-- <view id="LogContent">
+  <view wx:for="{{PontLog}}" data-index="{{index}}" class="FlowIteam" >
+    {{item.msg}}
+  </view>
+</view> -->
+<view id="result" class="btn_Area">
+  <button wx:if="{{BeginFlg}}" class="weui-btn" bindtap="btn_Begin" type="primary">开始行程</button>
+  <button wx:if="{{ContinueFlg}}" class="weui-btn" bindtap="btn_Continue" type="primary">继续行程</button>
+  <button wx:if="{{StopFlg}}" class="weui-btn" bindtap="btn_Stop" style="background-color:orange" type="primary">暂停行程</button>
+  <button wx:if="{{EndFlg}}" class="weui-btn" bindtap="btn_End" style="background-color:red;" type="primary">结束行程</button>
+  <button wx:if="{{false}}" bindtap="btn_Read" type="primary">读取文件</button>
+</view>
+<view id="LogContent">
+  <!-- 点个数：{{FileTest}},
+  重启个数：{{FileTest1}},
+  task:{{task}} -->
+</view>
+

@@ -1,0 +1,21 @@
+<!--pages/login/login.wxml-->
+<!-- 当没有用户公司信息时显示这个。用户完成登录后，获取用户的流程信息 -->
+<view wx:if="{{openid==''}}"style="height:100%">
+  <view style="text-align:center;margin-top:50px">
+    <image src="../image/logo.jpg" style="width:150px;height:60px"></image>
+  </view>
+  <view style="font-size:150%;text-align:center;margin-top:50px;">
+    私车公出记录
+    <view bindtap="btn_help" style="font-size:100%;color:red;margin-top:30px">
+      操作帮助
+    </view>
+  </view>
+  <view style="position:fixed;bottom:100px;width:100%;">
+    <!-- btn=0 如果用户没有授权用户信息 显示这个 当用户允许后，显示登录按钮 -->
+    <button wx:if="{{btn==0 && authFlg}}" class="weui-btn" bindtap="btn_auth" open-type="getUserInfo" style="width:90%" type="primary">授权获取信息</button>
+    <!-- btn=1 如果用户拒绝获取用户信息 显示这个 停止服务 直到用户允许,显示登录按钮 -->
+    <!-- <button wx:if="{{btn==1}}" class="weui-btn" style="width:90%" type="primary">请在设置中允许获取用户信息</button> -->
+    <!-- btn=2 如果用户允许授权，但是本地没有存openid 显示这个 用户公司信息 -->
+    <button wx:if="{{!authFlg && btn==0 || btn==2 || btn==1}}" class="weui-btn" bindtap="btn_login" style="width:90%" type="primary">登录</button>
+  </view>
+</view>

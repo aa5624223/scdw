@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="../Scripts/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <script>
+        $(document).ready(function () {
+
+        });
+        function dataSubmit() {
+            $.ajax({
+                type: 'post',
+                url: '../Controllers/SwitchRead.ashx',
+                data: $("#Myself").serialize(),
+                beforeSend: function (XMLHttpRequest) {
+
+                },
+                complete: function (XMLHttpRequest, textStatus) {
+                },
+                success: function (data) {
+                    var json = "";
+                    alert(data);
+                },
+                error: function (error) {
+                    alert(error);
+                }
+            });
+
+        }
+    </script>
+    <form id="Myself">
+        <label>aid:</label><input type="text" name="aid" id="aid" value="wxc73b6246871bc36c" /><br />
+        <label>pid 员工id:</label><input type="text" name="pid" id="pid" /><br />
+    </form>
+    <input type="button" onclick="dataSubmit()" value="提交数据">
+</body>
+</html>

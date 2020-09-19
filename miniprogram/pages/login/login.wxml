@@ -1,0 +1,30 @@
+<!--pages/Certify/Certify.wxml-->
+<view class="container">
+  <view style="text-align:center">
+    <image class="avatarImg" style="margin-top:10px;margin-bottom:60px" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+  </view>
+  <form bindsubmit="btn_Confirm">
+  <mp-cells title="">
+    <input name='aid' value="{{aid}}" style="display:none"></input>
+    <mp-cell title="微信名" ext-class="">
+      <input data-field="WeChart" name='wxName' class="weui-input"  disabled='disabled' value="{{userInfo.nickName}}" />
+    </mp-cell>
+    <mp-cell title="识别码" style="display:none" ext-class="">
+      <input data-field="openid"  name='openid' class="weui-input" placeholder="" disabled='disabled' value="{{openid}}" />
+    </mp-cell>
+  </mp-cells>
+  <mp-cells title="OA信息">
+    <mp-cell title="账 号" ext-class="">
+      <input data-field="UserId" name='pid' id="UserId"  class="weui-input" placeholder="请输入OA账号" />
+    </mp-cell>
+    <mp-cell title="密  码" ext-class="">
+      <input data-field="UserId" name='uName' id="uName" class="weui-input" type="password" placeholder="请输入OA密码" />
+    </mp-cell>
+  </mp-cells>
+  <view class="weui-btn-area">
+      <button class="weui-btn" style="width:90%" form-type="submit" type="primary">确定</button>
+
+      <button class="weui-btn" style="width:90%">返回</button>
+  </view>
+  </form>
+</view>

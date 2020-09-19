@@ -1,0 +1,114 @@
+D:\WorkSpace\OA_WX_GPS\bin\OA_WX_GPS.dll.config
+D:\WorkSpace\OA_WX_GPS\bin\OA_WX_GPS.dll
+D:\WorkSpace\OA_WX_GPS\bin\OA_WX_GPS.pdb
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\csc.exe
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\csc.exe.config
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\csc.rsp
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\csi.exe
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\csi.exe.config
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\csi.rsp
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\Microsoft.Managed.Core.targets
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\System.AppContext.dll
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\System.Collections.Immutable.dll
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\System.Console.dll
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\System.Globalization.Calendars.dll
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\System.IO.Compression.dll
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\System.IO.FileSystem.dll
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\System.Net.Http.dll
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\System.Net.Sockets.dll
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\System.Reflection.Metadata.dll
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\System.ValueTuple.dll
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\System.Xml.XmlDocument.dll
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\System.Xml.XPath.dll
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\vbc.exe
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\vbc.exe.config
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\vbc.rsp
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\VBCSCompiler.exe
+D:\WorkSpace\OA_WX_GPS\bin\roslyn\VBCSCompiler.exe.config
+D:\WorkSpace\OA_WX_GPS\bin\Antlr3.Runtime.dll
+D:\WorkSpace\OA_WX_GPS\bin\AspNet.ScriptManager.bootstrap.dll
+D:\WorkSpace\OA_WX_GPS\bin\AspNet.ScriptManager.jQuery.dll
+D:\WorkSpace\OA_WX_GPS\bin\Castle.ActiveRecord.dll
+D:\WorkSpace\OA_WX_GPS\bin\Castle.ActiveRecord.Web.dll
+D:\WorkSpace\OA_WX_GPS\bin\Castle.Components.Validator.dll
+D:\WorkSpace\OA_WX_GPS\bin\Castle.Core.dll
+D:\WorkSpace\OA_WX_GPS\bin\Iesi.Collections.dll
+D:\WorkSpace\OA_WX_GPS\bin\log4net.dll
+D:\WorkSpace\OA_WX_GPS\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\WorkSpace\OA_WX_GPS\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\WorkSpace\OA_WX_GPS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\WorkSpace\OA_WX_GPS\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\WorkSpace\OA_WX_GPS\bin\Microsoft.ScriptManager.WebForms.dll
+D:\WorkSpace\OA_WX_GPS\bin\Microsoft.Web.Infrastructure.dll
+D:\WorkSpace\OA_WX_GPS\bin\Newtonsoft.Json.dll
+D:\WorkSpace\OA_WX_GPS\bin\NHibernate.dll
+D:\WorkSpace\OA_WX_GPS\bin\System.Web.Optimization.dll
+D:\WorkSpace\OA_WX_GPS\bin\WebGrease.dll
+D:\WorkSpace\OA_WX_GPS\bin\log4net.xml
+D:\WorkSpace\OA_WX_GPS\bin\System.Web.Optimization.xml
+D:\WorkSpace\OA_WX_GPS\bin\Newtonsoft.Json.xml
+D:\WorkSpace\OA_WX_GPS\bin\Antlr3.Runtime.pdb
+D:\WorkSpace\OA_WX_GPS\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\WorkSpace\OA_WX_GPS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\WorkSpace\OA_WX_GPS\bin\zh-Hans\System.Web.Optimization.resources.dll
+D:\WorkSpace\OA_WX_GPS\bin\zh-Hans\Microsoft.AspNet.FriendlyUrls.resources.dll
+D:\WorkSpace\OA_WX_GPS\obj\Release\OA_WX_GPS.csproj.CopyComplete
+D:\WorkSpace\OA_WX_GPS\obj\Release\OA_WX_GPS.dll
+D:\WorkSpace\OA_WX_GPS\obj\Release\OA_WX_GPS.pdb
+D:\WorkSpace\OA_WX_GPS in\bin\OA_WX_GPS.dll.config
+D:\WorkSpace\OA_WX_GPS in\bin\OA_WX_GPS.dll
+D:\WorkSpace\OA_WX_GPS in\bin\OA_WX_GPS.pdb
+D:\WorkSpace\OA_WX_GPS in\bin\Antlr3.Runtime.dll
+D:\WorkSpace\OA_WX_GPS in\bin\AspNet.ScriptManager.bootstrap.dll
+D:\WorkSpace\OA_WX_GPS in\bin\AspNet.ScriptManager.jQuery.dll
+D:\WorkSpace\OA_WX_GPS in\bin\Castle.ActiveRecord.dll
+D:\WorkSpace\OA_WX_GPS in\bin\Castle.ActiveRecord.Web.dll
+D:\WorkSpace\OA_WX_GPS in\bin\Castle.Components.Validator.dll
+D:\WorkSpace\OA_WX_GPS in\bin\Castle.Core.dll
+D:\WorkSpace\OA_WX_GPS in\bin\Iesi.Collections.dll
+D:\WorkSpace\OA_WX_GPS in\bin\log4net.dll
+D:\WorkSpace\OA_WX_GPS in\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\WorkSpace\OA_WX_GPS in\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\WorkSpace\OA_WX_GPS in\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\WorkSpace\OA_WX_GPS in\bin\Microsoft.ScriptManager.WebForms.dll
+D:\WorkSpace\OA_WX_GPS in\bin\Microsoft.Web.Infrastructure.dll
+D:\WorkSpace\OA_WX_GPS in\bin\Newtonsoft.Json.dll
+D:\WorkSpace\OA_WX_GPS in\bin\NHibernate.dll
+D:\WorkSpace\OA_WX_GPS in\bin\System.Web.Optimization.dll
+D:\WorkSpace\OA_WX_GPS in\bin\WebGrease.dll
+D:\WorkSpace\OA_WX_GPS in\bin\log4net.xml
+D:\WorkSpace\OA_WX_GPS in\bin\System.Web.Optimization.xml
+D:\WorkSpace\OA_WX_GPS in\bin\Newtonsoft.Json.xml
+D:\WorkSpace\OA_WX_GPS in\bin\Antlr3.Runtime.pdb
+D:\WorkSpace\OA_WX_GPS in\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\WorkSpace\OA_WX_GPS in\bin\zh-Hans\System.Web.Optimization.resources.dll
+D:\WorkSpace\OA_WX_GPS in\bin\zh-Hans\Microsoft.AspNet.FriendlyUrls.resources.dll
+D:\WorkSpace\OA_WX_GPS in\obj\Release\OA_WX_GPS.csprojAssemblyReference.cache
+D:\WorkSpace\OA_WX_GPS in\obj\Release\OA_WX_GPS.csproj.CopyComplete
+D:\WorkSpace\OA_WX_GPS in\obj\Release\OA_WX_GPS.dll
+D:\WorkSpace\OA_WX_GPS in\obj\Release\OA_WX_GPS.pdb

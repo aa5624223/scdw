@@ -1,0 +1,20 @@
+/* pages/mapBegin1/mapBegin1.wxss */
+#LogContent{
+  height:780rpx;
+  overflow-y:scroll;
+}
+#LogContent view{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10px;
+  border-bottom: 1px solid gray;
+}
+#DebugContent{
+  width: 80%;
+}
+.btn_Area button{
+  border-radius: 50%;
+  font-size: 150%;
+  line-height:190px;
+  margin-top: 100px;
+}

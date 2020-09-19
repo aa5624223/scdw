@@ -1,0 +1,24 @@
+<!--pages/mapBegin1/mapBegin1.wxml-->
+<!-- 根据传递的参数不同页面显示不同的按钮 -->
+<!-- 第一次行程的按钮 -->
+<!-- <view style="font-size:150%;font-weight:600;width:100%;text-align:center">行程记录</view> -->
+<!-- <view style="font-weight:600;font-size:120%;margin-left:5%;">
+  当前距离：{{distance}}
+</view> -->
+<view id="LogContent" style="display:none">
+  <view wx:for="{{LogList}}" data-index="{{index}}" class="FlowIteam">
+    {{item.idx}}.时间：{{item.t}}-消息：{{item.text}}
+  </view>
+</view>
+<view class="btn_Area" style="margin-top:100px">
+  <button wx:if="{{btn1==0}}" class="weui-btn btn_Begin" bindtap="LogBegin_0" style="width:220px;height:220px;" type="primary">开始行程</button>
+  <button wx:if="{{btn1==2}}" class="weui-btn btn_Continue" bindtap="LogContinue" style="width:220px;height:220px;" type="primary">继续行程</button>
+  <button wx:if="{{btn1==1}}" class="weui-btn btn_Stop" bindtap="LogStop_0" style="width:220px;height:220px;background-color:orange" type="primary">暂停行程</button>
+  <button class="weui-btn btn_End" style="width:220px;height:220px;background-color:red;margin-top:50px" bindtap="Route_End" type="primary">结束行程</button>
+</view>
+<!-- 程序文件测试 区域 -->
+<view id="DebugContent">
+  <view wx:for="{{DebugList}}" data-index="{{index}}" class="FlowIteam" style="border-bottom:2px solid red;word-break:break-all;">
+    <text>{{item.idx}}.时间：{{item.t}}-消息：{{item.text}}</text>
+  </view>
+</view>

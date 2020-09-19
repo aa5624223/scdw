@@ -1,0 +1,4 @@
+<!--pages/Msg/Msg.wxml-->
+<view style="font-size:120%">
+  {{msg}}
+</view>

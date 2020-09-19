@@ -1,0 +1,31 @@
+<!--pages/flowChose/flowChose.wxml-->
+<view class="page">
+  <!-- <view class="page__bd">
+    <mp-searchbar bindselectresult="selectResult" search="{{search}}"></mp-searchbar>
+  </view> -->
+  <view>
+    <button bindtap="btn_help" style="color:red;margin-top:20rpx;margin-bottom:20rpx">操作帮助</button>
+  </view>
+  <!-- 未进行计费的流程  -->
+  <view class="FlowContent">
+    <view wx:if="{{Flow1_1.length==0}}" style="text-align:center">没有数据</view>
+    <view wx:for="{{Flow1_1}}" bindtap="tapMessage" data-index="{{index}}" wx:key="requestId" style="border:{{item.IsContinue==undefined?'none':'2px solid green'}}" class="FlowIteam">
+      <mp-cells title="{{item.ccdd}}">
+        <mp-cell value="起始时间：" footer=" {{item.ccqsrq}} {{item.ccqssj}}"></mp-cell>
+        <mp-cell value="截至时间：" footer=" {{item.ccjzrq}} {{item.ccjzsj}}"></mp-cell>
+      </mp-cells>
+      <!-- JTHR14006-出差/公出申请-林炜-2020-03-10 -->
+      <!-- <view class="FlowBody">
+        <view class="FlowBody_left">
+          {{item.ccqsrq}} {{item.ccqssj}}
+        </view>
+        <view class="FlowBody_Right" style="">
+          截至时间：{{item.ccjzrq}} {{item.ccjzsj}}
+        </view>
+        <view>
+          目的地：{{item.ccdd}}
+        </view>
+      </view> -->
+    </view>
+  </view>
+</view>

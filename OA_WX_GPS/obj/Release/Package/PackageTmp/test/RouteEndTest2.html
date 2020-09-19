@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="../Scripts/jquery-3.4.1.min.js"></script>
+    <script>
+        var FileList = [];
+        var FileNameList = [];
+        function fileSave() {
+            var file = document.getElementById("file").files[0];
+            FileNameList.push(file.name);
+            FileList.push(file);
+            $("#result").text(FileNameList.toString());
+        }
+        function fileUp() {
+            //提交文件
+            //创建formData对象
+            var formData = new FormData();
+            formData.append("aid", "wx18f0c07ca226079c");
+            var i = 0;
+            FileList.forEach(function (item) {
+                formData.append("file" + i, item);
+                i++;
+            });
+            //formData.append("uid", 100139);
+            formData.append("rid", 823667);
+            formData.append("pid", 39537);
+            formData.append("oid", "o5kg15hyta5I2938-Qsahwcr81-I");
+            formData.append("ccqsrq", "2020-04-10");
+            formData.append("ccqssj", "16:42");
+            formData.append("ccjzrq", "2020-04-11");
+            formData.append("ccjzsj", "16:42");
+            formData.append("ccdd", "无锡");
+            $.ajax({
+                type: 'POST',
+                url: "../Controllers/RouteEnd2.ashx",
+                data: formData,
+                cache: false,
+                processData: false,
+                contentType: false,
+                success: function (ret) {
+                    alert(ret);
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+    <input type="file" id="file" />
+    <br />
+    <br />
+    <input type="button" onclick="fileSave()" value="提交" />
+    <br />
+    <br />
+    <br />
+    <input type="button" onclick="fileUp()" value="上传" />
+    <div id="result">
+
+    </div>
+</body>
+</html>
